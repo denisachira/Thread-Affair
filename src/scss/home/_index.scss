@@ -1,0 +1,36 @@
+@import './home-banner';
+@import './home-catalog-preview';
+@import './home-newsletter';
+@import './home-social';
+@import './home-payment';
+
+.content-header {
+  margin-bottom: 70px;
+}
+
+.content-main {
+  section {
+    // .home-page .content-main section
+    .home-page & {
+      margin-bottom: 70px;
+
+      & > h1 {
+        font-size: 24px;
+        color: $brand-primary;
+        text-align: center;
+        text-transform: uppercase;
+
+        @include media-breakpoint-up('lg') {
+          font-size: 30px;
+          color: $black;
+          font-weight: 500;
+
+          span {
+            font-weight: 300;
+            text-transform: initial;
+          }
+        }
+      }
+    }
+  }
+}
