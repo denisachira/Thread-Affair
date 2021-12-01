@@ -7,6 +7,10 @@
     }
   }
 
+  .glide__slide {
+    position: relative;
+  }
+
   .home-banner-content {
     position: absolute;
     top: 0;
@@ -20,7 +24,7 @@
     flex-direction: column;
     text-align: center;
 
-    @include media-breakpoint-up('lg') {
+    @include media-breakpoint-up("lg") {
       align-items: flex-start;
     }
 
@@ -41,7 +45,7 @@
       bottom: 70px;
       width: 210px;
 
-      @include media-breakpoint-up('lg') {
+      @include media-breakpoint-up("lg") {
         font-size: 14px;
         bottom: 15px;
         width: auto;
@@ -52,7 +56,7 @@
         font-size: 24px;
         display: block;
 
-        @include media-breakpoint-up('lg') {
+        @include media-breakpoint-up("lg") {
           font-size: 14px;
           display: inline;
         }

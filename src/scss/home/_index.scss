@@ -1,8 +1,8 @@
-@import './home-banner';
-@import './home-catalog-preview';
-@import './home-newsletter';
-@import './home-social';
-@import './home-payment';
+@import "./home-carousel";
+@import "./home-catalog-preview";
+@import "./home-newsletter";
+@import "./home-social";
+@import "./home-payment";
 
 .content-header {
   margin-bottom: 70px;
@@ -20,7 +20,7 @@
         text-align: center;
         text-transform: uppercase;
 
-        @include media-breakpoint-up('lg') {
+        @include media-breakpoint-up("lg") {
           font-size: 30px;
           color: $black;
           font-weight: 500;
